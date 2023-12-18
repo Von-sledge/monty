@@ -31,7 +31,7 @@ void f_push(stack_t **head, unsigned int counter)
 
 	else
 	{
-		fprint(stderr, "L%d: usage: push integer\n", counter);
+		fprintf(stderr, "L%d: usage: push integer\n", counter);
 		fclose(bus.file);
 		free(bus.content);
 		exit(EXIT_FAILURE);

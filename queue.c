@@ -1,5 +1,4 @@
-queue.c
-
+#include <stdlib.h>
 #include "monty.h"
 /**
  * f_queue - prints the top
